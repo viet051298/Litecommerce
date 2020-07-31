@@ -1,0 +1,101 @@
+﻿@model LiteCommerce.DomainModels.Customer
+@{
+
+}
+<div class="box box-primary">
+    <div class="box-body">
+        <div class="box-header with-border">
+            <h3 class="box-title">@ViewBag.Title</h3>
+        </div>
+        <!-- form start -->
+        <form role="form" action="~/Customer/Input" method="post">
+            <div class="box-header text-right">
+                <a href="~/Customer">Back to list</a>
+            </div>
+            <div class="box-body">
+                <input type="hidden" name="typeInput" id="typeInput" value="@ViewBag.Title"/>
+                <div class="form-group row">
+                    <div class="col-md-6">
+                        <label for="">Customer ID</label>
+                        <input type="text" class="form-control" id="" placeholder="Enter Customer ID"
+                               name="CustomerID" value="@Model.CustomerID">
+                        @Html.ValidationMessage("CustomerID", new { @style = "color : red;" })
+                    </div>
+                    <div class="col-md-6">
+                        <label for="">Company Name</label>
+                        <input type="text" class="form-control" id="" placeholder="Enter company name"
+                               name="CompanyName" value="@Model.CompanyName">
+                        @Html.ValidationMessage("CompanyName", new { @style = "color : red;" })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6">
+                        <label for="">Contact Name</label>
+                        <input type="text" class="form-control" id="" placeholder="Enter contact name"
+                               name="ContactName" value="@Model.ContactName">
+                        @Html.ValidationMessage("ContactName", new { @style = "color : red;" })
+                    </div>
+                    <div class="col-md-6">
+                        <label for="">Contact Title</label>
+                        <input type="text" class="form-control" id="" placeholder="Enter contact title"
+                               name="ContactTitle" value="@Model.ContactTitle">
+                        @Html.ValidationMessage("ContactTitle", new { @style = "color : red;" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Address</label>
+                    <input type="text" class="form-control" id="" placeholder="Enter address"
+                           name="Address" value="@Model.Address">
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6">
+                        <label for="">Country</label>
+                        @Html.DropDownListFor(m => m.Country, SelectListHelper.ListOfCountry(),
+                                    new { @class = "form-control"})
+                        @Html.ValidationMessage("Country", new { @style = "color : red;" })
+                    </div>
+                    <div class="col-md-6">
+                        <label for="">City</label>
+                        <input type="text" class="form-control" id="" placeholder="Enter City"
+                               name="City" value="@Model.City">
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6">
+                        <label for="">Phone</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <input type="tel" class="form-control" data-inputmask="'mask': ['999-999-9999 [x99999]', '+099 99 99 9999[9]-9999']"
+                                   data-mask="" name="Phone" value="@Model.Phone">
+                            @Html.ValidationMessage("Phone", new { @style = "color : red;" })
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="">Fax</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">
+                                <i class="fa fa-fax"></i>
+                            </div>
+                            <input type="tel" class="form-control" data-inputmask="'mask': ['999-999-9999 [x99999]', '+099 99 99 9999[9]-9999']"
+                                   data-mask="" name="Fax" value="@Model.Fax">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    @Html.ValidationMessage("", new { @style = "color : red;" })
+                </div>
+            </div>
+            <!-- /.box-body -->
+
+            <div class="box-footer">
+                <button type="submit" class="btn btn-primary">Save</button>
+                <a href="~/Customer" class="btn btn-default">Cancer</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+

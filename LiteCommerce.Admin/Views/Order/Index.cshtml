@@ -1,0 +1,110 @@
+﻿@model LiteCommerce.Admin.Models.OrderPaginationResult
+@{
+    int i = 0;
+}
+<!-- general form elements -->
+<h2>Orders Manager</h2>
+<div class="container-fluid">
+    <!-- .box -->
+    <div class="box box-primary">
+        <div class="box-body">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Input search value...">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- /.box -->
+    <div class="row">
+        <div class="col-sm-8">
+            There are <b>@Model.RowCount</b> Order.
+        </div>
+        <div class="col-md-4 text-right">
+            <div class="btn-group">
+               
+            </div>
+        </div>
+    </div>
+    <div class="box box-success">
+        <div class="box-body">
+            <table class="table table-bordered table_info">
+                <thead>
+                    <tr>
+                        <th><input type="checkbox" /></th>
+                        <th>#</th>
+                        <th>OrderID</th>
+                        <th>Customer</th>
+                        <th>Employee</th>
+                        <th>Order Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Data)
+                    {
+                        <tr>
+                            <td><input type="checkbox" /></td>
+                            <td>
+                                @(++i)
+                            </td>
+                            <td>
+                                <span class="info-company-name"><a href="~/Order/Detailt/@item.OrderID">@item.OrderID</a></span>
+                            </td>
+                            <td>
+                                <span>@item.CustomerID</span>
+                            </td>
+                            <td>
+                                <span>@item.EmployeeID</span>
+                            </td>
+                            <td>
+                                <span>@item.OrderDate</span>
+                            </td>
+                            <td class="text-center">
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="box-footer clearfix">
+            <ul class="pagination pagination-sm no-margin pull-right">
+                <li><a href="~/Order?page=1&searchValue=@Model.SearchValue">«</a></li>
+                @if (Model.Page > 4)
+                {
+                    <li><a>...</a></li>
+                }
+                @{
+                    int page = Model.Page;
+                    int currentpage = page;
+                    int size = Model.PageCount;
+                    if (currentpage == page)
+                    {
+                        size = currentpage + 3;
+                    }
+                    for (page = currentpage - 3; page <= size; page++)
+                    {
+                        if (page == Model.Page)
+                        {
+                            <li class="active"><a href="#">@page</a></li>
+                        }
+                        else
+                        {
+                            if (page > 0 && page <= Model.PageCount)
+                            {
+                                <li><a href="~/Order?page=@page&searchValue=@Model.SearchValue">@page</a></li>
+                            }
+                        }
+                    }
+                }
+
+                @if (Model.Page < Model.PageCount - 3)
+                {
+                    <li><a>...</a></li>
+                }
+                <li><a href="~/Order?page=@Model.PageCount&searchValue=@Model.SearchValue">»</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+

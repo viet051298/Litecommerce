@@ -1,0 +1,105 @@
+﻿@model LiteCommerce.Admin.Models.EmployeePaginationResult
+@{
+    ViewBag.Title = "Employees";
+    int i = 0;
+}
+<!-- general form elements -->
+<h2>Employees</h2>
+<!-- .box -->
+<div class="box box-primary">
+    <div class="box-body">
+        <form action="~/Employee" method="get">
+            <input type="hidden" name="page" value="@Model.Page" />
+            <div class="box-body">
+                <div class="col-md-5">
+                    @Html.DropDownListFor(m => m.Country, SelectListHelper.ListOfCountry(),
+                                       new { @class = "form-control" })
+                </div>
+                <div class="col-md-6">
+                    <input type="text" name="searchValue" class="form-control" placeholder="Input search value" value="@Model.SearchValue">
+                </div>
+                <div class="input-group-btn">
+                    <button type="submit" class="btn btn-primary btn-flat">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- /.box -->
+<form action="~/Employee/Delete" method="post">
+    <div class="row" style="margin-bottom: 50px;">
+        <div class="col-sm-8">
+            There are @Model.RowCount employee.
+        </div>
+        <div class="col-md-4 text-right">
+            <div class="btn-group">
+                <a href="~/Employee/Input" type="button" class="btn btn-sm btn-primary">Add Employee</a>
+                <button type="submit" class="btn btn-sm btn-danger" value="delete" name="method">Delete Employee</button>
+            </div>
+        </div>
+    </div>
+    <div class="box box-success">
+        <div class="box-body">
+            <table class="table table-bordered table_info">
+                <thead>
+                    <tr>
+                        <th><input type="checkbox" /></th>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Birth Date</th>
+                        <th>Address</th>
+                        <th>Contact Info</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Data)
+                    {
+                        <tr>
+                            <td><input type="checkbox" name="employeeIDs" value="@item.EmployeeID" /></td>
+                            <td>
+                                @(++i)
+                            </td>
+                            <td>
+                                <span class="info-company-name">@item.FirstName @item.LastName</span>
+                                <span>Title: </span>
+                                <span class="info-contact-name">@item.Title</span>
+                            </td>
+                            <td>
+                                <span>@string.Format("{0:dd/MM/yyyy}", item.BirthDate)</span>
+                            </td>
+                            <td>
+                                <span class="info-address">
+                                    @item.Address
+                                </span>
+                                <span>@item.City</span>
+                                <span> - </span>
+                                <span>@item.Country</span>
+                            </td>
+                            <td>
+                                <span style="display: block;"><i class="fa fa-phone"></i>@item.HomePhone</span>
+                            </td>
+                            <td class="text-right">
+                                <a class="btn btn-sm btn-default" href="~/Employee/Input/@item.EmployeeID">
+                                    <i class="fa fa-edit"></i> Edit
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="box-footer clearfix text-center">
+            <ul class="pagination pagination-sm no-margin pull-right">
+                <li><a href="~/Employee?page=1&Country=@Model.Country&searchValue=@Model.SearchValue">«</a></li>
+                @for (int page = 1; page <= Model.PageCount; page++)
+                {
+                    <li><a href="~/Employee?page=@page&Country=@Model.Country&searchValue=@Model.SearchValue">@page</a></li>
+                }
+                <li><a href="~/Employee?page=@Model.PageCount&@Model.Country&searchValue=@Model.SearchValue">»</a></li>
+            </ul>
+        </div>
+    </div>
+</form>

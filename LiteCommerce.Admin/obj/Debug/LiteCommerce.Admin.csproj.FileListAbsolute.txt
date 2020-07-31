@@ -1,0 +1,180 @@
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.Admin.dll.config
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.Admin.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.Admin.pdb
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csc.exe
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csc.exe.config
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csc.rsp
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csi.exe
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csi.rsp
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.AppContext.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.Collections.Immutable.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.IO.FileSystem.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.Reflection.Metadata.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\vbc.exe
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\vbc.exe.config
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\vbc.rsp
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\VBCSCompiler.exe
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\roslyn\VBCSCompiler.exe.config
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\Antlr3.Runtime.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\Microsoft.Web.Infrastructure.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\Newtonsoft.Json.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Helpers.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Mvc.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Optimization.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Razor.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.Deployment.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.Razor.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\WebGrease.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Helpers.xml
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Mvc.xml
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Optimization.xml
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Razor.xml
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.xml
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.Deployment.xml
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.Razor.xml
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\Newtonsoft.Json.xml
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\Antlr3.Runtime.pdb
+D:\source\LiteCommerce\LiteCommerce.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\source\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.csprojAssemblyReference.cache
+D:\source\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.csproj.CoreCompileInputs.cache
+D:\source\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.csproj.CopyComplete
+D:\source\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.dll
+D:\source\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.pdb
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.Admin.dll.config
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.Admin.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.Admin.pdb
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csc.exe
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csc.exe.config
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csc.rsp
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csi.exe
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csi.rsp
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.AppContext.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.Collections.Immutable.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.IO.FileSystem.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.Reflection.Metadata.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\vbc.exe
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\vbc.exe.config
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\vbc.rsp
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\VBCSCompiler.exe
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\roslyn\VBCSCompiler.exe.config
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\Antlr3.Runtime.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\Microsoft.Web.Infrastructure.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\Newtonsoft.Json.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Helpers.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Mvc.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Optimization.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Razor.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.Deployment.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.Razor.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\WebGrease.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Helpers.xml
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Mvc.xml
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Optimization.xml
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Razor.xml
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.xml
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.Deployment.xml
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.Razor.xml
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\Newtonsoft.Json.xml
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\Antlr3.Runtime.pdb
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.csprojAssemblyReference.cache
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.csproj.CoreCompileInputs.cache
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.csproj.CopyComplete
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.pdb
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.BussinessLayers.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.DataLayers.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.DomainModels.dll
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.BussinessLayers.pdb
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.DataLayers.pdb
+E:\ASP DOT NET\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.DomainModels.pdb
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.Admin.dll.config
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.Admin.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.Admin.pdb
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csc.exe
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csc.exe.config
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csc.rsp
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csi.exe
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\csi.rsp
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.AppContext.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.Collections.Immutable.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.IO.FileSystem.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\System.Reflection.Metadata.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\vbc.exe
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\vbc.exe.config
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\vbc.rsp
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\VBCSCompiler.exe
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\roslyn\VBCSCompiler.exe.config
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\Antlr3.Runtime.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.BussinessLayers.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.DataLayers.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.DomainModels.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\Microsoft.Web.Infrastructure.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\Newtonsoft.Json.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Helpers.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Mvc.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Optimization.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Razor.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.Deployment.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.Razor.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\WebGrease.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.BussinessLayers.pdb
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.DataLayers.pdb
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\LiteCommerce.DomainModels.pdb
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Helpers.xml
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Mvc.xml
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Optimization.xml
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.Razor.xml
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.xml
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.Deployment.xml
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\System.Web.WebPages.Razor.xml
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\Newtonsoft.Json.xml
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\Antlr3.Runtime.pdb
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.csprojAssemblyReference.cache
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.csproj.CoreCompileInputs.cache
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.csproj.CopyComplete
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.dll
+D:\litekt\LiteCommerce-master\LiteCommerce\LiteCommerce.Admin\obj\Debug\LiteCommerce.Admin.pdb

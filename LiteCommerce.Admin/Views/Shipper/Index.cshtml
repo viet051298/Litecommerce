@@ -1,0 +1,111 @@
+﻿@model LiteCommerce.Admin.Models.ShipperPaginationResult
+@{
+    ViewBag.Title = "Shipper";
+    int i = 0;
+}
+<!-- general form elements -->
+<h2>Shipper</h2>
+<!-- .box -->
+<div class="box box-primary">
+    <div class="box-body">
+        <div class="input-group input-group-sm">
+            <input type="text" class="form-control" placeholder="Input search value...">
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-primary btn-flat">
+                    <i class="fa fa-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+</div>
+<!-- /.box -->
+<form action="~/Shipper/Delete" method="post">
+    <div class="row" style="margin-bottom: 50px;">
+        <div class="col-sm-8">
+            There are @Model.RowCount Shipper.
+        </div>
+        <div class="col-md-4 text-right">
+            <div class="btn-group">
+                <a href="~/Shipper/Input" type="button" class="btn btn-sm btn-primary">Add Shipper</a>
+                <button type="submit" class="btn btn-sm btn-danger" value="delete" name="methods">Delete Shipper</button>
+            </div>
+        </div>
+    </div>
+    <div class="box box-success">
+        <div class="box-body">
+            <table class="table table-bordered table_info">
+                <thead>
+                    <tr>
+                        <th><input type="checkbox" /></th>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Data)
+                    {
+                        <tr>
+                            <td><input type="checkbox" name="shipperIDs" value="@item.ShipperID" /></td>
+                            <td>
+                                @(++i)
+                            </td>
+                            <td>
+                                <span class="info-company-name">@item.CompanyName</span>
+                            </td>
+                            <td>
+                                <span>@item.Phone</span>
+                            </td>
+                            <td class="text-right">
+                                <a class="btn btn-sm btn-default" href="~/Shipper/Input/@item.ShipperID">
+                                    <i class="fa fa-edit"></i> Edit
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="box-footer clearfix">
+            <ul class="pagination pagination-sm no-margin pull-right">
+                <li><a href="~/Shipper?page=1&searchValue=@Model.SearchValue">«</a></li>
+                @if (Model.Page > 4)
+                {
+                    <li><a>...</a></li>
+                }
+                @{
+                    int page = Model.Page;
+                    int currentpage = page;
+                    int size = Model.PageCount;
+                    if (currentpage == page)
+                    {
+                        size = currentpage + 3;
+                    }
+                    for (page = currentpage - 3; page <= size; page++)
+                    {
+                        if (page == Model.Page)
+                        {
+                            <li class="active"><a href="#">@page</a></li>
+                        }
+                        else
+                        {
+                            if (page > 0 && page <= Model.PageCount)
+                            {
+                                <li><a href="~/Shipper?page=@page&searchValue=@Model.SearchValue">@page</a></li>
+                            }
+                        }
+                    }
+                }
+
+                @if (Model.Page < Model.PageCount - 3)
+                {
+                    <li><a>...</a></li>
+                }
+                <li><a href="~/Shipper?page=@Model.PageCount&searchValue=@Model.SearchValue">»</a></li>
+            </ul>
+        </div>
+    </div>
+</form>
+
+

@@ -1,0 +1,19 @@
+﻿body {
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+
+/* Input */
+.table_info .info-company-name {
+    color: #0094ff;
+    font-weight: bold;
+    display: block;
+}
+
+.table_info .info-contact-name {
+    font-weight: bold;
+}
+
+.table_info .info-address {
+    display: block;
+}

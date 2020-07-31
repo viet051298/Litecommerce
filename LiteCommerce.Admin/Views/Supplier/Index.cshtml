@@ -1,0 +1,95 @@
+﻿@model LiteCommerce.Admin.Models.SupplierPaginationResult
+@{
+    ViewBag.Title = "Manage Suppliers";
+    int i = 0;
+}
+<!-- general form elements -->
+<h2>Supplier</h2>
+<!-- .box -->
+<div class="box box-primary">
+    <div class="box-body">
+        <form action="~/Supplier" method="get">
+            <div class="input-group input-group-sm">
+                <input type="text" name="searchValue" class="form-control" placeholder="Input search value..." 
+                       value="@Model.SearchValue">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-primary btn-flat">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- /.box -->
+<form action="~/Supplier/Delete" , method="post">
+    <div class="row" style="margin-bottom: 50px;">
+        <div class="col-sm-8">
+            There are <b>@Model.RowCount</b> suppliers. Page @Model.Page/@Model.PageCount
+        </div>
+        <div class="col-md-4 text-right">
+            <div class="btn-group">
+                <a href="~/Supplier/Input" type="button" class="btn btn-sm btn-primary">Add Supplier</a>
+                <button type="submit" class="btn btn-sm btn-danger" name="method" value="delete">Delete Supplier</button>
+            </div>
+        </div>
+    </div>
+    <div class="box box-success">
+        <div class="box-body">
+            <table class="table table-bordered table_info">
+                <thead>
+                    <tr>
+                        <th><input type="checkbox" /></th>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Contact Info</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Data)
+                    {
+                        <tr>
+                            <td><input type="checkbox" name="supplierIDs" value="@item.SupplierID"/></td>
+                            <td>
+                                @(++i)
+                            </td>
+                            <td>
+                                <span class="info-company-name">@item.CompanyName</span>
+                                <span>@item.ContactTitle</span>
+                                <span class="info-contact-name">@item.ContactName</span>
+                            </td>
+                            <td>
+                                <span class="info-address">@item.Address</span>
+                                <span>@item.City</span>
+                                <span> - </span>
+                                <span>@item.Country</span>
+                            </td>
+                            <td>
+                                <span style="display: block;"><i class="fa fa-phone"></i>@item.Phone</span>
+                                <span style="display: block;"><i class="fa fa-fax"></i>@item.Fax</span>
+                                <span style="display: block;"><i class="fa fa-link"></i>@item.HomePage</span>
+                            </td>
+                            <td class="text-right">
+                                <a class="btn btn-sm btn-default" href="~/Supplier/Input/@item.SupplierID">
+                                    <i class="fa fa-edit"></i> Edit
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="box-footer clearfix">
+            <ul class="pagination pagination-sm no-margin pull-right">
+                <li><a href="~/Supplier?page=1&searchValue=@Model.SearchValue">«</a></li>
+                @for (int page = 1; page <= Model.PageCount; page++)
+                {
+                    <li><a href="~/Supplier?page=@page&searchValue=@Model.SearchValue">@page</a></li>
+                }
+                <li><a href="~/Supplier?page=@Model.PageCount&searchValue=@Model.SearchValue">»</a></li>
+            </ul>
+        </div>
+    </div>
+</form>

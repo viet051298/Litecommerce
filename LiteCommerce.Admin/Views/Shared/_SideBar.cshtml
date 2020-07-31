@@ -1,0 +1,79 @@
+﻿@{
+    WebUserData userData = User.GetUserData();
+}
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        <!-- Sidebar user panel -->
+        <div class="user-panel">
+            <div class="pull-left image">
+                <img src="~/Images/@userData.Photo" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+                <p>@userData.FullName</p>
+                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+            </div>
+        </div>
+        <!-- search form -->
+        <form action="#" method="get" class="sidebar-form">
+            <div class="input-group">
+                <input type="text" name="q" class="form-control" placeholder="Search...">
+                <span class="input-group-btn">
+                    <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+        </form>
+        <!-- /.search form -->
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">MAIN NAVIGATION</li>
+            <li>
+                <a href="~/Dashboard">
+                    <i class="fa fa-dashboard"></i><span>Dashboard</span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-files-o"></i>
+                    <span>Catalog</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="~/Supplier"><i class="fa fa-circle-o"></i> Suppliers</a></li>
+                    <li><a href="~/Customer"><i class="fa fa-circle-o"></i> Customers</a></li>
+                    <li><a href="~/Shipper"><i class="fa fa-circle-o"></i> Shippers</a></li>
+                    <li><a href="~/Category"><i class="fa fa-circle-o"></i> Categorys</a></li>
+                    <li><a href="~/Product"><i class="fa fa-circle-o"></i> Products</a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-pie-chart"></i>
+                    <span>Manage Orders</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="~/Order"><i class="fa fa-circle-o"></i> List</a></li>
+                    <li><a href="~/Order/Create"><i class="fa fa-circle-o"></i> Create New</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="~/Employee">
+                    <i class="fa fa-th"></i><span>Employees</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-area-chart"></i> <span>Reposts</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!-- /.sidebar -->
+</aside>
